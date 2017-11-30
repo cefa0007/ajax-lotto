@@ -1,0 +1,79 @@
+.page {
+    /*   display: none;*/
+    padding: 2rem;
+    position: absolute;
+    transform: translateX(-200%);
+    transition: transform 0.8s ease;
+}
+
+.page.active {
+    display: block;
+    transform: translateX(0);
+    background-image: url(../IMG/lottery.jpg);
+}
+
+.num {
+    list-style: none;
+    background-color: green;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    float: left;
+    box-shadow: 10px 10px 10px black;
+   
+}
+
+header {
+    font-size: 100px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+     text-shadow: 5px 7px red;
+    background-color: limegreen;
+    
+}
+
+label {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 4px red;
+   background-color: limegreen;
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+}
+#btnSend btnBack{
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+    }
+
+
+input{
+    font-size: 100px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+     text-shadow: 3px 4px red;
+    background-color: white;
+    border-radius: 50%;
+    border-color:green;
+}
+
+span{
+  font-size: 50px;
+    color: white;
+    text-decoration: underline;
+    
+}
