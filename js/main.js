@@ -28,7 +28,8 @@ function nav(ev) {
 }
 
 function getNumbers(ev){
-    let url ="http://localhost/mad9014-lotto/nums.php";
+//  let url ="http://localhost/mad9014-lotto/nums.php";
+  let url ="http://10.70.172.62/mad9014-lotto/nums.php";
     //removed ?digits=3&max=50
     let fd =new FormData();
     let digits =document.getElementById('digits');//the input tag
@@ -61,12 +62,11 @@ function getNumbers(ev){
                 let li =document.createElement('li');
                 li.className='num';
                 li.textContent=num;
-
-                ul.appendChild (li);
+                
+                 ul.appendChild (li);
             });
             
-        }else{
-           
+        }else{ 
         }
             
         }
